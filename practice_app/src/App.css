@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  font-family: system-ui;
+}
+
+body{
+  background-image: url('../src/images/body_background.jpg');
+  background-color: rgb(219, 162, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.addData {
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+
+.header{
+  background: #dcafd9;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.container{
+  background-color: white;
+  justify-content: center;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.container.second{
+  background-color: white;
+  justify-content: center;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 15%;
+  text-align: center;
+}
+.header.second{
+  background: #dcafd9;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.button {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  /* margin: 8px 0; */
+  margin-top: 8%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 25%;
+  background-color: #855782;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
